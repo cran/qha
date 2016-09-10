@@ -1,0 +1,19 @@
+# Default NAMESPACE created by R (tomado de mpa)
+# Remove the previous line if you edit this file
+
+
+# Import all packages listed as Imports or Depends
+#####################################
+##               Import            ##
+#####################################
+# Import all packages listed as Imports or Depends
+import(
+  ade4,
+  FactoClass,
+  graphics,
+  stats   
+)
+importFrom("FactoMineR",MFA)
+
+# Export all names
+exportPattern(".")
